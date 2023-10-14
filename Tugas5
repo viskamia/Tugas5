@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>Information</title>
+<link rel="icon" type="images/x-icon"href="images/ikon.jpg">
+
+</head>
+<body style="background-color: rgb(14, 175, 250);"></body>
+<h1 style="font-family: arial;">Museum Fatahillah</h1>
+
+<img src="Images/museum fatahillah.JPG" width="200" height="200" style="margin:20px 20px 20px;">
+
+<p style="font-family: arial;backdrop-filter: blur;color:black">
+<span class="note"><b>Museum Fatahillah</b></span> adalah bangunan bernuansa Belanda yang didirikan pada periode 1707-1712. Konstruksi dan arsitekturnya disebut-sebut mirip Istana Dam di Amsterdam, Belanda. Di Museum Fatahillah Anda bisa melihat obyek dari sejarah Kota Tua seperti replika dan arkeologi peninggalan kerajaan Tarumanegara dan Padjajaran, mebel antik daru avad ke-17 hingga abad ke-19 dengan gaya Eropa, Cina, dan Indonesia. Ada ruangan tersembunyi di Museum Fatahillah, yang letaknya di bawah tanah berada di belakang Museum Fatahillah. Di ruangan itu terlihat bola-bola besi yang dulunya diikatkan ke kaki para tahanan penjara bawah tanah tersebut.
+
+<!--HTML CLASSES -->
+<style>
+.note {
+    font-size: 120%;
+    color: beige;
+}
+    
+.table {
+    width: 30%;
+    height: 20%;
+    font-size: 20px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: bisque;
+    border-style: hidden;
+}
+
+.td1 {
+    font-size: 20px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: bisque;
+}
+
+.td2 {
+    font-size: 20px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: bisque;
+}
+</style>
+
+<!--HTML Id-->
+<style>
+    #N {
+        color:beige;
+        font-family: arial;
+    }
+
+    img {
+        display:flex;
+        margin-left: auto;
+        margin-left: auto;
+    }
+</style>
+</p>
+<h2 id="N">Fasilitas yang ada di Museum Fatahillah</h2>
+
+<!--HTML List-->
+<ol style="font-family:arial; font-size: 20px;">
+    <li>Perpustakaan</li>
+    <li>Kantin Museum</li>
+    <li>Sinema Fatahillah</li>
+    <li>Musholla</li>
+    <li>Ruang Pertemuan dan Pameran</li>
+    <li>Taman Dalam</li>
+</ol>
+<br>
+
+<div>
+    <!--HTML Block & Inline-->
+    <h2 style="font-family: arial; border: 3px solid bisque">Informasi Museum Fatahillah</h2>
+</div>
+<br>
+
+<!--HTML table-->
+<div style="padding-left:30px; padding-right: 30px; font-family: arial;">
+<table border="1"> 
+    <tr>
+        <th text-align="center">Museum</th>
+        <th text-allign="center">Fatahillah</th>
+    </tr>
+    <tr>
+        <td>Alamat</td>
+        <td>Jl. Pintu Besar Utara No.27, RT.7/RW.7, Pinangsia, Kec. Taman Sari, Kota Jakarta Barat, DKI Jakarta 11110</td>
+    </tr>
+    <tr>
+        <td>Jam Operasional</td>
+        <td>Senin-Minggu : 08.00-22.00 WIB</td>
+    </tr>
+</table>
+
+<!--HTML Media-->
+<br>
+
+<iframe width="420" height="345"
+src="https://youtu.be/eGgd9j-qhQQ?si=vbNr3Xek7ubGWuDl">
+</iframe>
+
+<h2 style="font-family: arial; padding-left: 30px; padding-right: 30px;">Apakah kalian tertarik untuk mengunjungi 
+    <span style="border:2px solid black;">Museum Fatahillah</span>
+</h2>
+
+<!--HTML Forms-->
+<form style="font-family: arial; padding-left: 30px; padding-right: 30px; font-size: large;">
+    <input type="radio" id="Yes" nane="fav_language" value="Ya">
+    <label for="Yes">Ya</label><br>
+    <input type="radio" id="No" nane="fav_language" value="Tidak">
+    <label for="No">Tidak</label><br>
+    <h2>Daftarkan diri anda segera!</h2>
+    <label for="name">Nama:</label>
+    <input type="text" id="nane" nane="nane" value=""><br>
+
+    <label for="tlp">Telepon:</label>
+    <input type="text" id="tlp" nane="tlp" value=""><br>
+    
+    <label for="alat">Alamat:</label>
+    <input type="text" id="almt" nane="almt" value=""><br><br>
+    <input type="submit" vallue="submit">
+</form>
+</body>
+<hr>
+</html>
